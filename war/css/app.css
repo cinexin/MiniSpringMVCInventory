@@ -1,0 +1,101 @@
+@CHARSET "ISO-8859-1";
+
+a {
+	display:block;
+	background-color:#E0E0E0;
+	position:relative;
+	padding-top:.5em;
+	padding-bottom:.5em;
+	text-decoration:none;
+}
+
+
+
+body {
+	font-family: Helvetica;
+	background-color:#F0F0F0   ;
+}
+
+div.form {
+	margin-top: 2em;
+	margin-left:3em;
+	margin-bottom:1em;
+}
+
+div.greetingMessage{
+	display:block;
+	background-color: #E0E0E0 ;
+	padding-left:5em;
+	padding-right:5em;
+	margin-top:0em;
+	width:20%;
+	text-align:center;
+	border-radius:1em;
+}
+
+div.menu {
+	width:20%;
+	text-align:center ;
+
+}
+
+.error {
+	color:red;
+}
+
+.menu :hover {
+	background-color:#96C2EF;
+
+}
+
+h1 {
+	display:block;
+	background-color: #E0E0E0 ;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	color: #707070   ;
+	border: dashed 2px #3366CC;
+	margin-left: 10em;
+	margin-right:10em;
+	margin-bottom:0em;
+	text-align:center;
+	margin-top:0em;
+}
+
+h3.productList {
+	display:block;
+	background-color: #3366CC ;
+	color: #E0E0E0  ;
+	padding-left:1em;
+	margin-left:5em;
+	width:20%;
+	margin-bottom:0.5em;
+	margin-right:30em;
+	
+}
+
+li {
+	display:block;
+	background-color:#E0E0E0 ;
+	margin-left:5em;
+	margin-right:30em;
+	padding-left:2em;
+	margin-bottom:0.5em;
+	font-size:.9em;
+}
+
+li:hover{
+	background-color: #dcebeb;
+	z-index:1000;
+	-webkit-transform: translateY(-3px) scale(1.05);
+	-webkit-transition: all 0.20s linear;
+	
+	transform: translateY(-3px) scale(1.05);
+	transition: all 0.20s linear;
+}
+
+
+
+ul.list {
+	margin-top:0em;
+}
